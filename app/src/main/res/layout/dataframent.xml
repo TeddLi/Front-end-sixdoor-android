@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--todo fragment 跳转-->
+    <Button
+        android:id="@+id/dbt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I feel nervous" />
+
+    <Button
+        android:id="@+id/dbt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="check the safety around" />
+
+    <Button
+        android:id="@+id/dbt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stimulated call" />
+
+    <Button
+        android:id="@+id/dbt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="data ends" />
+</LinearLayout>
