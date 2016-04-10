@@ -1,27 +1,22 @@
-package com.example.focuslee.helloworldactivity;
+package com.nku.liushanmen;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     View v;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        ImageButton mbutton1=(ImageButton)findViewById(R.id.pic1);
-        ImageButton mbutton2=(ImageButton)findViewById(R.id.pic2);
-        ImageButton mbutton3=(ImageButton)findViewById(R.id.pic3);
+        setContentView(com.example.focuslee.helloworldactivity.R.layout.activity_main);
+        ImageButton mbutton1=(ImageButton)findViewById(com.example.focuslee.helloworldactivity.R.id.pic1);
+        ImageButton mbutton2=(ImageButton)findViewById(com.example.focuslee.helloworldactivity.R.id.pic2);
+        ImageButton mbutton3=(ImageButton)findViewById(com.example.focuslee.helloworldactivity.R.id.pic3);
         mbutton3.setOnClickListener(new View.OnClickListener() {
             @Override
             //把这个按钮的功能设置为跳转
@@ -71,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(com.example.focuslee.helloworldactivity.R.menu.menu_main, menu);
         return true;
     }
 
@@ -83,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == com.example.focuslee.helloworldactivity.R.id.action_settings) {
             return true;
         }
 

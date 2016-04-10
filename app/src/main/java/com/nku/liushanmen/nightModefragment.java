@@ -1,4 +1,4 @@
-package com.example.focuslee.helloworldactivity;
+package com.nku.liushanmen;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 public class nightModefragment extends Fragment {
     public View onCreateView(LayoutInflater inflater,ViewGroup container ,Bundle savedInstanceState)
     {
-        return inflater.inflate(R.layout.nightfragment,container,false);
+        return inflater.inflate(com.example.focuslee.helloworldactivity.R.layout.nightfragment,container,false);
 
     }
 }
