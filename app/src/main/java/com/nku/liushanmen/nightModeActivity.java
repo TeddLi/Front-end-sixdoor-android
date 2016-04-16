@@ -144,7 +144,7 @@ public class nightModeActivity extends AppCompatActivity implements View.OnClick
                 View layout = inflater.inflate(R.layout.carlisence, (ViewGroup) findViewById(R.id.dialog));new AlertDialog.Builder(this).setTitle("自定义布局").setView(layout).setPositiveButton("确定", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                    Log.e("e1",e1.getText().toString());
+
                     ed1.setText(e1.getText().toString());
                     ed2.setText(e2.getText().toString());
                 }
